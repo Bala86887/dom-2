@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>mini calculator</title>  
+</head>
+
+<body>
+<input id="one"></input>
+<input id="two"></input>
+<button onclick="add()">addition</button>
+<button onclick="div()">division</button>
+<button onclick="multi()">multiply</button>
+<button onclick="sub()">subraction</button>
+
+</body>
+<script>
+    
+
+
+function add(){
+let c=document.getElementById("one").value
+let d=document.getElementById("two").value
+
+console.log(Number(c)+Number(d))
+}
+
+function div(){
+let c=document.getElementById("one").value
+let d=document.getElementById("two").value
+
+console.log(Number(c)/Number(d))
+}
+function multi(){
+let c=document.getElementById("one").value
+let d=document.getElementById("two").value
+
+console.log(Number(c)*Number(d))
+}
+function sub(){
+let c=document.getElementById("one").value
+let d=document.getElementById("two").value
+
+console.log(Number(c)-Number(d))
+}
+
+
+</script>
+
+
+</html>
